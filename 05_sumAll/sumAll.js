@@ -1,3 +1,6 @@
+//should've return 'ERROR' directly instead of placing it in variable sum.
+// change int1 to int2 and vice versa instead of creating another loop.
+
 const sumAll = function(int1, int2) {
     let sum = 0;
 
@@ -22,7 +25,6 @@ const sumAll = function(int1, int2) {
     return sum;
 };
 
-// console.log(sumAll(3, -2));
 
 // Do not edit below this line
 module.exports = sumAll;
