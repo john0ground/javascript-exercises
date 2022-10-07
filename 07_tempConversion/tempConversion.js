@@ -1,3 +1,4 @@
+
 const ftoc = function(temp) {
     const ftocConvert = (temp - 32) * (5/9);
     const ftocResult = Math.round(ftocConvert * 10) / 10;
