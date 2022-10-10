@@ -33,6 +33,8 @@ const power = function(num, exponent) {
 };
 
 const factorial = function(num) {
+  if (num === 0) return 1;
+   
   let facResult = 1;
 	for (i=num; i >= 1; i--) {
     facResult *= i;
