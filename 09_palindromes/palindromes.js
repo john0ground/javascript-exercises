@@ -2,8 +2,7 @@ const palindromes = function (string) {
       const singleWord = string.toLowerCase().replace(/[.,!? ]/g,'');
       const result = singleWord.split('').reverse().join('');
       
-      if(result === singleWord) {return true;}
-      else {return false;}
+      return result === singleWord;
 };
 
 
