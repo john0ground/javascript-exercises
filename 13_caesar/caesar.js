@@ -3,6 +3,7 @@ const caesar = function(...args) {
     const shift = args[1];
 
     const newStr = str.map((item) => {
+        if (str[i].match(/[!,.';?" ]/)) {}
         let num = item.charCodeAt(item) + shift;
         return String.fromCharCode(num);
     });
@@ -20,7 +21,7 @@ const caesar = function(...args) {
 
     return convertedStr.join('');
 };
-console.log(caesar('Dog', -1));
+console.log(caesar('D[og', -1));
 
 // Do not edit below this line
 module.exports = caesar;
