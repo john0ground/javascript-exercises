@@ -1,6 +1,4 @@
-const caesar = function(...args) {
-    const str = args[0];
-    const shift = args[1];
+const caesar = function(str, shift) {
     const convertedStr = [];
     
     for (let i = 0; i < str.length; i++) {
